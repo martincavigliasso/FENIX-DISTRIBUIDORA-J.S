@@ -89,4 +89,11 @@ function recuperar() {
 }
 
 
-recuperar()
+recuperar() 
+
+const desestructurar = ( {id, aceituna} ) => {
+    console.log (5, aceituna)
+}
+desestructurar (aceituna) 
+
+desestructurar()
